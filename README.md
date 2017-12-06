@@ -11,6 +11,8 @@ US Dollar currency textfield(sophearatx)
 
 <img src="https://github.com/vansa007/CurrencyTextFieldFormatter/blob/master/Screen%20Shot%202017-12-06%20at%2010.24.50%20AM.png?raw=true" width=450 height=200>
 
+Video here: https://github.com/vansa007/CurrencyTextFieldFormatter/blob/master/ScreenRecording_12-06-2017%2010:16.mp4
+
 Don't forget check in shouldChangeCharactersIn of UITextFieldDelegate<br>
 ```swift
 func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
