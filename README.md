@@ -1,8 +1,7 @@
 # CurrencyTextFieldFormatter
 Control textfield
 
-US Dollar currency textfield
-#Sopheara
+US Dollar currency textfield(sophearatx)
 
 <img src="https://github.com/vansa007/CurrencyTextFieldFormatter/blob/master/44611045-83D7-44EF-8521-44C9492793BB.jpg?raw=true" width=320 height=640>
 
@@ -25,5 +24,5 @@ func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange
 }
 ```
 
-If have any issue, please feedback me soon. Thanks you!
+If have any issues, please feedback me soon. Thanks you!
 Best thanks to KSHRD center.
