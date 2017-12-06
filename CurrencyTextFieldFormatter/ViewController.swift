@@ -10,16 +10,34 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //visual outlet
+    @IBOutlet weak var myCurrencyTextField: CurrencyTextfieldForrmatter!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        //set mytextfield delegate
+        self.myCurrencyTextField.delegate = self
+        
+        /*config mytextfield, if you don't want to config on storyboard
+         
+        self.myCurrencyTextField.isFractionExist = true //if you want your textfield has fraction (.)
+        self.myCurrencyTextField.maxDigits = 15 //set maximum of number of digits (default 15)
+         
+        */
     }
+}
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+extension ViewController: UITextFieldDelegate {
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        if textField == self.myCurrencyTextField && string == "." {
+            let countdots = textField.text?.components(separatedBy: ".")
+            if (countdots?.count)! >= 2 {
+                return false
+            }
+        }
+        return true
     }
-
-
+    
 }
 

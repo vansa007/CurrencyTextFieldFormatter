@@ -12,6 +12,7 @@
 		391793611FD78C5F0045718F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3917935F1FD78C5F0045718F /* Main.storyboard */; };
 		391793631FD78C5F0045718F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 391793621FD78C5F0045718F /* Assets.xcassets */; };
 		391793661FD78C5F0045718F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 391793641FD78C5F0045718F /* LaunchScreen.storyboard */; };
+		3917936E1FD78DF30045718F /* CurrencyTextfieldForrmatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3917936D1FD78DF30045718F /* CurrencyTextfieldForrmatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		391793621FD78C5F0045718F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		391793651FD78C5F0045718F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		391793671FD78C5F0045718F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3917936D1FD78DF30045718F /* CurrencyTextfieldForrmatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextfieldForrmatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				391793621FD78C5F0045718F /* Assets.xcassets */,
 				391793641FD78C5F0045718F /* LaunchScreen.storyboard */,
 				391793671FD78C5F0045718F /* Info.plist */,
+				3917936D1FD78DF30045718F /* CurrencyTextfieldForrmatter.swift */,
 			);
 			path = CurrencyTextFieldFormatter;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3917935E1FD78C5F0045718F /* ViewController.swift in Sources */,
+				3917936E1FD78DF30045718F /* CurrencyTextfieldForrmatter.swift in Sources */,
 				3917935C1FD78C5F0045718F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
