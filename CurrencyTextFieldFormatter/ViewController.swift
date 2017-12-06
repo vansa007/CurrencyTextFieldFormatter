@@ -24,6 +24,12 @@ class ViewController: UIViewController {
         self.myCurrencyTextField.maxDigits = 15 //set maximum of number of digits (default 15)
          
         */
+        
+        /*get clean value from our textfield, we want to remove (, sign)
+ 
+        let myValue = self.myCurrencyTextField?.text?.replacingOccurrences(of: ",", with: "")
+ 
+        */
     }
 }
 
